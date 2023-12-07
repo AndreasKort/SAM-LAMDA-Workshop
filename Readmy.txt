@@ -1,0 +1,45 @@
+Modul 2: Bereitstellen Ihrer ersten API mit IaC bis zur Validierung
+Ziel des Moduls
+In diesem Modul lernen Sie, wie Sie Ihre erste API mithilfe von Infrastructure as Code (IaC) bereitstellen und anschließend eine Validierung durchführen. Wir werden PowerShell verwenden, um die notwendigen Schritte zu automatisieren.
+
+Voraussetzungen
+Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen, bevor Sie mit dem Modul beginnen:
+
+ PowerShell installiert (Version 5.1 oder höher)
+ Zugriff auf eine IaC-Plattform (z. B. Terraform) - Installationsanweisungen finden Sie in der entsprechenden Dokumentation.
+Schritte
+Folgen Sie diesen Schritten, um das Modul erfolgreich abzuschließen:
+
+1. Konfiguration der IaC-Umgebung
+Stellen Sie sicher, dass Ihre IaC-Umgebung korrekt konfiguriert ist. Verwenden Sie die folgenden PowerShell-Befehle, um die notwendigen Konfigurationen vorzunehmen:
+
+powershell
+Copy code
+# Beispiel für Terraform
+terraform init
+terraform apply
+2. Bereitstellung der API
+Nutzen Sie die bereitgestellten IaC-Skripte, um Ihre API zu erstellen. Hier ist ein Beispiel für PowerShell-Befehle:
+
+powershell
+Copy code
+# Beispiel für Terraform
+terraform apply
+3. Validierung der API
+Führen Sie Tests und Validierungen durch, um sicherzustellen, dass Ihre API ordnungsgemäß bereitgestellt wurde. Verwenden Sie die folgenden PowerShell-Befehle:
+
+powershell
+Copy code
+# Beispiel für API-Validierung
+Invoke-RestMethod -Uri "https://api.example.com" -Method Get
+# Führen Sie weitere Tests nach Bedarf durch
+4. Aufräumen
+Nach Abschluss des Moduls können Sie die Ressourcen aufräumen, wenn erforderlich:
+
+powershell
+Copy code
+# Beispiel für Terraform
+terraform destroy
+Hilfe und Ressourcen
+Offizielle Dokumentation für Terraform
+PowerShell-Dokumentation: Microsoft PowerShell-Dokumentation
